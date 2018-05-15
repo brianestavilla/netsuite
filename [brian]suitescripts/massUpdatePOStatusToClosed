@@ -1,0 +1,43 @@
+/**
+ * Module Description
+ * 
+ * Version    Date            Author           Remarks
+ * 1.00       01 Feb 2016     Dranix
+ *
+ */
+
+/**
+ * @param {String} recType Record type internal id
+ * @param {Number} recId Record internal id
+ * @returns {Void}
+ */
+function massUpdate(recType, recId) {
+	var columnVendorBill = [ new nlobjSearchColumn('internalid'),
+	                         new nlobjSearchColumn('custbody192'),
+	                         new nlobjSearchColumn('memo')
+						   ];
+	
+	var filterVendorBill = [ new nlobjSearchFilter('custbody121', null, 'anyof', recId) ];
+	var resultVendorBill = nlapiSearchRecord('vendorbill',null, filterVendorBill, columnVendorBill);
+	
+	if(resultVendorBill!=null) {
+//		var columnBillPayment = [ new nlobjSearchColumn('internalid') ];
+//		var filterBillPayment = [ new nlobjSearchFilter('internalid', null, 'anyof', resultVendorBill[0].getValue('custbody192')) ];
+//		var resultBillPayment  = nlapiSearchRecord('vendorpayment',null, filterBillPayment, columnBillPayment);
+		
+		if(resultVendorBill[0].getValue('custbody192')!=null || resultVendorBill[0].getValue('custbody192')!='') {
+			var record = nlapiLoadRecord(recType, recId);
+			
+			if(memo=='' || memo==null) {
+				record.setFieldValue('memo', ' ');	
+			} else {
+				record.setFieldValue('memo', resultVendorBill[0].getValue('memo'));
+			}
+			
+				for(var i=1, counter=record.getLineItemCount('item'); i<=counter; i++) {
+				record.setLineItemValue('item', 'isclosed', i, 'T');
+			}
+			nlapiSubmitRecord(record);
+		}		
+	}
+}

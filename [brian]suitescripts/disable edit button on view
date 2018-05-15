@@ -1,0 +1,8 @@
+/*********************************************/
+/*** DISABLE LINE ITEM EDIT BUTTON ON VIEW ***/
+/*********************************************/
+
+jQuery('#div__lab1').hide();
+jQuery('#recmachcustrecord275__tab tbody').children().each(function(){
+	jQuery(this).children().first().hide();
+});

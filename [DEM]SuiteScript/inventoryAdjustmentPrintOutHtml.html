@@ -1,0 +1,93 @@
+<pdf>
+<head>
+<style type="text/css">
+body {
+width: 800px;
+font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px;
+}
+#memo {
+margin-top: 20px;
+height: 100px;
+border-top: 1px solid black;
+}
+#table td {
+border: 1px solid gray;
+}
+#footer {
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+height: 40px;
+}
+.tableHeader{
+font-size: 10px;
+font-weight: bold;
+}
+.tableContent{
+font-size: 9px;
+}
+
+</style>
+</head>
+<body>
+<div id="title">
+	<table>
+		<tr>
+			<td width="550"><b> Dranix Distributors, Incorporated </b></td>
+			<td width="250"><b> Inventory Adjustment </b></td>
+		</tr>
+	</table>
+</div>
+<div id="heading">
+	<table>
+		<tr>
+			<td width="550">Reference No : {refNo}</td>
+			<td width="250">Date : {date}</td>
+		</tr>
+		<tr>
+			<td width="550">Estimated Total Value : {estimatedTotalValue} </td>
+			<td width="250">Principal : {principal}</td>
+		</tr>
+		<tr>
+			<td width="550">Adjustment Location : {adjustmentLocation} </td>
+		</tr>
+	</table>
+</div>
+<table id="table">
+	<tr class="tableHeader">
+		<td width="210" align="center">ITEM</td>
+		<td width="170" align="center">LOCATION</td>
+		<td width="100" align="center">UNITS</td>
+		<td width="120" align="center">QTY. ON HAND</td>
+		<td width="120" align="center">CURRENT VALUE</td>
+		<td width="120" align="center">ADJUST QTY. BY</td>
+		<td width="120" align="center">NEW QTY</td>
+		<td width="120" align="center">EST. UNIT COST</td>
+	</tr>
+		{rows}
+</table>
+<div id="memo">
+<table>
+	<tr>
+		<td width="800">REMARKS :  {memo}</td>
+	</tr>
+</table>
+</div>
+
+<!--<div id="footer">
+	<table>
+		<tr>
+			<td width="250">Received By:</td>
+			<td width="250">Checked By:</td>
+			<td width="300">Date Received:</td>
+		</tr>
+		<tr>
+			<td width="250">{recby} </td>
+			<td width="250">{checkby}</td>
+			<td width="300">{datereceived}</td>
+		</tr>
+	</table>
+</div> -->
+
+</body>
+</pdf>

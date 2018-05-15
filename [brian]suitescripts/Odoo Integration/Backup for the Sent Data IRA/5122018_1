@@ -1,0 +1,5 @@
+internalid, tranid, customer, customercode, trandate, location, principal, externalinvoice, item, itemcode, qty, uom
+undefined,undefined,CASINO ESPAÑOL DE CEBU,undefined,undefined,CENTRAL : CEBU : PAKNAAN : DMPI : DMPI FS : GOOD (PAK_DMPIFS),DEL MONTE PHIL INC. : DMPI FS,undefined,undefined,undefined,undefined,undefined,undefined
+undefined,undefined,ALRAZON FOOD CORPORATION,undefined,undefined,CENTRAL : CEBU : PAKNAAN : DMPI : DMPI FS : GOOD (PAK_DMPIFS),DEL MONTE PHIL INC. : DMPI FS,undefined,undefined,undefined,undefined,undefined,undefined
+undefined,undefined,DOC'S NORTH BREADS INC.-CONSOLACION,undefined,undefined,CENTRAL : CEBU : PAKNAAN : DMPI : DMPI FS : GOOD (PAK_DMPIFS),DEL MONTE PHIL INC. : DMPI FS,undefined,undefined,undefined,undefined,undefined,undefined
+undefined,undefined,SANVIC-CALBAYOG,undefined,undefined,EAST : CALBAYOG : DMPI : GT : BO (CAL_DMPIGT),DEL MONTE PHIL INC. : DMPI GT,undefined,undefined,undefined,undefined,undefined,undefined

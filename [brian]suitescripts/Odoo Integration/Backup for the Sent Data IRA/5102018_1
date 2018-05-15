@@ -1,0 +1,12 @@
+internalid, tranid, customer, customercode, trandate, location, principal, externalinvoice, item, itemcode, qty, uom
+undefined,undefined,PAPART - COMPOSTELA PM,undefined,undefined,CENTRAL : CEBU : PAKNAAN : DMPI : DMPI GT : BTDT (PAK_DMPIGT),DEL MONTE PHIL INC. : DMPI GT,undefined,undefined,undefined,undefined,undefined,undefined
+undefined,undefined,#3 STORE - LAPU-LAPU,undefined,undefined,CENTRAL : CEBU : PAKNAAN : DMPI : DMPI GT : BTDT (PAK_DMPIGT),DEL MONTE PHIL INC. : DMPI GT,undefined,undefined,undefined,undefined,undefined,undefined
+undefined,undefined,SHOPWELL TALISAY CORP.,undefined,undefined,CENTRAL : CEBU : PAKNAAN : DMPI : DMPI GT : GOOD (PAK_DMPIGT),DEL MONTE PHIL INC. : DMPI GT,undefined,undefined,undefined,undefined,undefined,undefined
+undefined,undefined,GAISANO CAPITAL-MACTAN,undefined,undefined,CENTRAL : CEBU : PAKNAAN : DMPI : DMPI GT : GOOD (PAK_DMPIGT),DEL MONTE PHIL INC. : DMPI GT,undefined,undefined,undefined,undefined,undefined,undefined
+undefined,undefined,LESTER LACE ENTERPRISES-BRANCH IV,undefined,undefined,EAST : CALBAYOG : DMPI : GT : BO (CAL_DMPIGT),DEL MONTE PHIL INC. : DMPI GT,undefined,undefined,undefined,undefined,undefined,undefined
+undefined,undefined,LESTER LACE ENTERPRISES-BRANCH II,undefined,undefined,EAST : CALBAYOG : DMPI : GT : BO (CAL_DMPIGT),DEL MONTE PHIL INC. : DMPI GT,undefined,undefined,undefined,undefined,undefined,undefined
+undefined,undefined,RMF,undefined,undefined,EAST : CALBAYOG : DMPI : GT : GOOD (CAL_DMPIGT),DEL MONTE PHIL INC. : DMPI GT,undefined,undefined,undefined,undefined,undefined,undefined
+undefined,undefined,MOMS GROCERY,undefined,undefined,EAST : CALBAYOG : DMPI : GT : BO (CAL_DMPIGT),DEL MONTE PHIL INC. : DMPI GT,undefined,undefined,undefined,undefined,undefined,undefined
+undefined,undefined,MOMS GROCERY,undefined,undefined,EAST : CALBAYOG : DMPI : GT : BO (CAL_DMPIGT),DEL MONTE PHIL INC. : DMPI GT,undefined,undefined,undefined,undefined,undefined,undefined
+undefined,undefined,MOMS GROCERY,undefined,undefined,EAST : CALBAYOG : DMPI : GT : GOOD (CAL_DMPIGT),DEL MONTE PHIL INC. : DMPI GT,undefined,undefined,undefined,undefined,undefined,undefined
+undefined,undefined,SUNSHINE,undefined,undefined,EAST : CALBAYOG : DMPI : GT : BO (CAL_DMPIGT),DEL MONTE PHIL INC. : DMPI GT,undefined,undefined,undefined,undefined,undefined,undefined

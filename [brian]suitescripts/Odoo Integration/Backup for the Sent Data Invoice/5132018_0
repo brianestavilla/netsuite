@@ -1,0 +1,3 @@
+internalid, tranid, customer, customercode, trandate, location, principal, externalinvoice, item, itemcode, qty, uom
+undefined,undefined,LANZ PIZZA HOT CORNER,undefined,undefined,CENTRAL : CEBU : PAKNAAN : DMPI : DMPI FS : GOOD (PAK_DMPIFS),DEL MONTE PHIL INC. : DMPI FS,undefined,undefined,undefined,undefined,undefined
+undefined,undefined,GAISANO FIESTA MALL - TABUNOK,undefined,undefined,CENTRAL : CEBU : PAKNAAN : DMPI : DMPI GT : GOOD (PAK_DMPIGT),DEL MONTE PHIL INC. : DMPI GT,undefined,undefined,undefined,undefined,undefined

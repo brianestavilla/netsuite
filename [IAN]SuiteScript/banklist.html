@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<pdf>
+	<head>
+		<style>
+			body {
+			width: 800px;
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+			font-size: 12px;
+			}
+			table {
+			font-size: 12px;
+			}
+			#heading {
+			border-top: 1px;
+			border-bottom: 1px;
+			}
+			#body, #th {
+			border-top: 1px;
+			border-bottom: 1px;
+			}
+			#footer {
+			font-size: 10px;
+			}
+			#names {
+			border-top: 1px;
+			border-bottom: 1px;
+			}
+			#memo {
+			height: 40px;
+			}
+			#JE {
+			height: 175px;
+			}
+			#dochead{
+			text-align: center;
+			}
+			#header{
+			width: 500px;
+			margin-left: 230px;
+			}
+			th{
+			height: 30px;
+			padding-top: 10px;
+			padding-left: 5px;
+			border-bottom: 1px;
+			}
+			table{
+			border-top: 1px;
+			border-bottom: 1px;
+			page-break-inside: auto;			
+			}
+			tr{
+			page-break-inside: avoid;
+			page-break-after: auto;			
+			}
+			thead{
+			display: table-header-group
+			}
+			tfoot{
+			display: table-footer-group
+			}
+		</style>
+		<macrolist>	
+			<macro id ="myheader">
+				<div id = "header">
+					<p id = "dochead"><b>DRANIX DISTRIBUTOR INC</b><br/>
+					BANK PAYROLL SUMMARY LISTING<br/>
+					All Employee</p>
+				</div>
+				<div>
+					<p>Payee Name : {payee}<br/> Check No. : {checknum}<br/>
+					C.V. No. : {cvno}</p>
+				</div>
+				<div  position = "absolute" left = "450" top = "75" overflow = "hidden">	
+					<p>Page <pagenumber size = "2"/> of <totalpages size = "2"/></p>
+				</div>
+			</macro>
+		</macrolist>
+	</head>
+	<body size="Letter" header = "myheader" header-height = "35mm">
+
+		<table>
+			<thead>
+					<tr>
+						<th width = '80'>No.</th>
+						<th width = '350'>Name</th>
+						<th width = '150' align = 'center'>Account No</th>
+						<th width = '150' align = 'center'>Amount</th>
+					</tr>
+			</thead>
+			<tbody>
+				{lineitem}
+					<tr style= "border-top: 1px">
+						<td width = '80'></td>
+						<td width = '350'></td>
+						<td width = '150'><b>TOTAL AMOUNT</b></td>
+						<td width = '150' align = 'right'><b>{totalamount}</b></td>
+					</tr>	
+			</tbody>
+		</table>
+		
+	</body>
+</pdf>

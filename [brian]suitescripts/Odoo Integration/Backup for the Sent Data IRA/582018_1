@@ -1,0 +1,8 @@
+internalid, tranid, customer, customercode, trandate, location, principal, externalinvoice, item, itemcode, qty, uom
+undefined,undefined,JUSTMAR MARKETING INC.,undefined,undefined,EAST : CALBAYOG : DMPI : GT : BO (CAL_DMPIGT),DEL MONTE PHIL INC. : DMPI GT,undefined,undefined,undefined,undefined,undefined,undefined
+undefined,undefined,JUSTMAR MARKETING INC.,undefined,undefined,EAST : CALBAYOG : DMPI : GT : BO (CAL_DMPIGT),DEL MONTE PHIL INC. : DMPI GT,undefined,undefined,undefined,undefined,undefined,undefined
+undefined,undefined,ESTEVES COMMERCIAL,undefined,undefined,EAST : CALBAYOG : DMPI : GT : BO (CAL_DMPIGT),DEL MONTE PHIL INC. : DMPI GT,undefined,undefined,undefined,undefined,undefined,undefined
+undefined,undefined,CILA STORE,undefined,undefined,EAST : CALBAYOG : DMPI : GT : BO (CAL_DMPIGT),DEL MONTE PHIL INC. : DMPI GT,undefined,undefined,undefined,undefined,undefined,undefined
+undefined,undefined,CILA STORE,undefined,undefined,EAST : CALBAYOG : DMPI : GT : BO (CAL_DMPIGT),DEL MONTE PHIL INC. : DMPI GT,undefined,undefined,undefined,undefined,undefined,undefined
+undefined,undefined,CAPARAL SARI SARI STORE,undefined,undefined,EAST : CALBAYOG : DMPI : GT : GOOD (CAL_DMPIGT),DEL MONTE PHIL INC. : DMPI GT,undefined,undefined,undefined,undefined,undefined,undefined
+undefined,undefined,MOMS GROCERY,undefined,undefined,EAST : CALBAYOG : DMPI : GT : GOOD (CAL_DMPIGT),DEL MONTE PHIL INC. : DMPI GT,undefined,undefined,undefined,undefined,undefined,undefined

@@ -1,0 +1,19 @@
+internalid, tranid, customer, customercode, trandate, location, principal, externalinvoice, item, itemcode, qty, uom
+11532315,83102,V01X-0013011,undefined,2018-3-10,CENTRAL : CEBU : PAKNAAN : DMPI : DMPI GT : GOOD (PAK_DMPIGT),DEL MONTE PHIL INC. : DMPI GT,83102,undefined,undefined,undefined,undefined,undefined
+11532325,83103,V01X-0005004,undefined,2018-3-10,CENTRAL : CEBU : PAKNAAN : DMPI : DMPI GT : GOOD (PAK_DMPIGT),DEL MONTE PHIL INC. : DMPI GT,83103,undefined,undefined,undefined,undefined,undefined
+11532348,83107,V01X-0204262,undefined,2018-3-10,CENTRAL : CEBU : PAKNAAN : DMPI : DMPI GT : GOOD (PAK_DMPIGT),DEL MONTE PHIL INC. : DMPI GT,83107,undefined,undefined,undefined,undefined,undefined
+11532464,83110,V01X-0202332,undefined,2018-3-10,CENTRAL : CEBU : PAKNAAN : DMPI : DMPI GT : GOOD (PAK_DMPIGT),DEL MONTE PHIL INC. : DMPI GT,83110,undefined,undefined,undefined,undefined,undefined
+11532480,83111,V01X-0202707,undefined,2018-3-10,CENTRAL : CEBU : PAKNAAN : DMPI : DMPI GT : GOOD (PAK_DMPIGT),DEL MONTE PHIL INC. : DMPI GT,83111,undefined,undefined,undefined,undefined,undefined
+11532489,83112,V01X-0200002,undefined,2018-3-10,CENTRAL : CEBU : PAKNAAN : DMPI : DMPI GT : GOOD (PAK_DMPIGT),DEL MONTE PHIL INC. : DMPI GT,83112,undefined,undefined,undefined,undefined,undefined
+11532496,83114,V01X-0204498,undefined,2018-3-10,CENTRAL : CEBU : PAKNAAN : DMPI : DMPI GT : GOOD (PAK_DMPIGT),DEL MONTE PHIL INC. : DMPI GT,83114,undefined,undefined,undefined,undefined,undefined
+11532503,83116,V01X-0204498,undefined,2018-3-10,CENTRAL : CEBU : PAKNAAN : DMPI : DMPI GT : GOOD (PAK_DMPIGT),DEL MONTE PHIL INC. : DMPI GT,83116,undefined,undefined,undefined,undefined,undefined
+11624395,83774,V01X-0005448,undefined,2018-3-17,CENTRAL : CEBU : PAKNAAN : DMPI : DMPI GT : GOOD (PAK_DMPIGT),DEL MONTE PHIL INC. : DMPI GT,83774,undefined,undefined,undefined,undefined,undefined
+11624405,83776,V01X-0005448,undefined,2018-3-17,CENTRAL : CEBU : PAKNAAN : DMPI : DMPI GT : GOOD (PAK_DMPIGT),DEL MONTE PHIL INC. : DMPI GT,83776,undefined,undefined,undefined,undefined,undefined
+11624408,83777,V01X-0005448,undefined,2018-3-17,CENTRAL : CEBU : PAKNAAN : DMPI : DMPI GT : GOOD (PAK_DMPIGT),DEL MONTE PHIL INC. : DMPI GT,83777,undefined,undefined,undefined,undefined,undefined
+11624412,83778,V01X-0005450,undefined,2018-3-17,CENTRAL : CEBU : PAKNAAN : DMPI : DMPI GT : GOOD (PAK_DMPIGT),DEL MONTE PHIL INC. : DMPI GT,83778,undefined,undefined,undefined,undefined,undefined
+11624416,83779,V01X-0011903,undefined,2018-3-17,CENTRAL : CEBU : PAKNAAN : DMPI : DMPI GT : GOOD (PAK_DMPIGT),DEL MONTE PHIL INC. : DMPI GT,83779,undefined,undefined,undefined,undefined,undefined
+11624419,83780,V01X-0015792,undefined,2018-3-17,CENTRAL : CEBU : PAKNAAN : DMPI : DMPI GT : GOOD (PAK_DMPIGT),DEL MONTE PHIL INC. : DMPI GT,83780,undefined,undefined,undefined,undefined,undefined
+11624420,83781,V01X-001530,undefined,2018-3-17,CENTRAL : CEBU : PAKNAAN : DMPI : DMPI GT : GOOD (PAK_DMPIGT),DEL MONTE PHIL INC. : DMPI GT,83781,undefined,undefined,undefined,undefined,undefined
+11624421,83782,V01X-0016595,undefined,2018-3-17,CENTRAL : CEBU : PAKNAAN : DMPI : DMPI GT : GOOD (PAK_DMPIGT),DEL MONTE PHIL INC. : DMPI GT,83782,undefined,undefined,undefined,undefined,undefined
+11624423,83783,V01X-A00588A,undefined,2018-3-17,CENTRAL : CEBU : PAKNAAN : DMPI : DMPI GT : GOOD (PAK_DMPIGT),DEL MONTE PHIL INC. : DMPI GT,83783,undefined,undefined,undefined,undefined,undefined
+11624425,83784,V01X-0009826,undefined,2018-3-17,CENTRAL : CEBU : PAKNAAN : DMPI : DMPI GT : GOOD (PAK_DMPIGT),DEL MONTE PHIL INC. : DMPI GT,83784,undefined,undefined,undefined,undefined,undefined
